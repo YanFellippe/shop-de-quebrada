@@ -1,20 +1,24 @@
 header{
     background-color: white;
+    
 }
 
 #menu ul{
+    margin-left: 25%;
     display: flex;
     width: 300px;
-    height: 180px;
-    gap: 100px;
+    height: 100px;
+    gap: 60px;
     padding: 0px 141px;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
     list-style: none;
 }
 
 
 #logo{
+    width: 100px;
+    height: 100px;
     width: 150px;
     height: 50px;
 }
@@ -22,9 +26,61 @@ header{
 #itens, a{
     text-decoration: none;
     display: inline;
+    color: black;
 }
 
 #ctt{
     text-decoration: none;
     display: inline;
+}
+
+#banner{
+    background-image: url("./src/The North Face 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 700px;
+    flex-shrink: 0;
+}
+
+
+footer{
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer li{
+    list-style: none;
+    padding: 0 200px;
+    margin-bottom: 10px;
+}
+
+.sobre{
+    margin-right: 228px;
+}
+
+.politica{
+    margin-right: 155px;
+}
+
+.quem{
+    margin-right: 228px;
+}
+
+footer a{
+    color: white;
+}
+
+.importante{
+    width: 15px;
+    height: 15px;
 }
