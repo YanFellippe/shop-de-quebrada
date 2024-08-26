@@ -1,7 +1,3 @@
-*{
-    margin: 0;
-    padding: 0;
-}
 body {
     margin: 0;
     font-family: "Montserrat", sans-serif !important; 
@@ -11,7 +7,7 @@ header {
     display: flex;
     align-items: center;
     height: 90px;
-    background-color: FFFCF9;
+    background-color: #f8f8f8;
     justify-content: center;
  
 }
@@ -53,69 +49,25 @@ header {
     transition: 1s;
 }
 
-#banner{
-    background-image: url("./src/The North Face 1.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: auto;
-    height: 700px;
-    flex-shrink: 0;
-}
 
-footer{
-    background-color: rgb(0, 0, 0);
-    bottom: 0;
-    width: 100%;
-    height: 100px;
-    display: flex;
-    justify-content: space-between;
+/* PAGINA DE PRODUTOS */
+.gif_banner{
+    padding: 10px;
     align-items: center;
-    color: white;
+    justify-content: center
+}
+
+.gif_banner img {
+    width: 100%;
+    height: 100%;
+    
+}
+
+.eclipse {
+    justify-content: center;
     text-align: center;
-    padding: 35px;
 }
 
-footer li{
-    list-style: none;
-    padding: 0 200px;
-    margin-bottom: 15px;
-}
-
-.sobre{
-    margin-left: 200px;
-}
-
-.politica{
-    margin-left: 200px;
-    display: block;
-}
-
-.quem{
-    margin-left: 200px;
-}
-
-footer a{
-    color: white;
-    text-decoration: none;
-}
-
-.importante{
-    width: 15px;
-    height: 15px;
-}
-
-#txt{
-    font-size: 18px;
-    margin-top: 25px;
-    font-weight: bold;
-    display: block;
-    bottom: 0px;
-}
-
-#content2{
-    margin-top: 20px;
-}
-
-.dados{
-    margin-right: 200px;
+.seta {
+    align-items: center;
 }
