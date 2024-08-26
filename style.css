@@ -1,37 +1,56 @@
-header{
-    background-color: white;
-    
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    font-family: "Montserrat", sans-serif !important; 
 }
 
-#menu ul{
-    margin-left: 25%;
+header {
     display: flex;
-    width: 300px;
-    height: 100px;
-    gap: 60px;
-    padding: 0px 141px;
-    justify-content: space-between;
     align-items: center;
+    height: 90px;
+    background-color: FFFCF9;
+    justify-content: center;
+ 
+}
+
+.logo img {
+    max-height: 60px; 
+}
+
+.navegacao {   
+    display: flex;
+    margin-left: 200px;
+}
+
+.navegacao ul {
     list-style: none;
+    display: flex;
 }
 
-
-#logo{
-    width: 100px;
-    height: 100px;
-    width: 150px;
-    height: 50px;
+.navegacao li {
+    margin-left: 100px;
 }
 
-#itens, a{
+#ctt {
+    margin-left: 230px;
+ 
+}
+
+.navegacao a {
     text-decoration: none;
-    display: inline;
-    color: black;
+    color: #000000;
+    font-weight: bold;
 }
 
-#ctt{
-    text-decoration: none;
-    display: inline;
+.navegacao a:hover {
+    text-decoration: underline;
+}
+
+.navegacao li:hover{
+    transition: 1s;
 }
 
 #banner{
@@ -42,7 +61,6 @@ header{
     height: 700px;
     flex-shrink: 0;
 }
-
 
 footer{
     background-color: rgb(0, 0, 0);
@@ -55,32 +73,50 @@ footer{
     align-items: center;
     color: white;
     text-align: center;
-    padding: 20px;
+    padding: 35px;
 }
 
 footer li{
     list-style: none;
     padding: 0 200px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .sobre{
-    margin-right: 228px;
+    margin-left: 200px;
 }
 
 .politica{
-    margin-right: 155px;
+    margin-left: 200px;
+    display: block;
 }
 
 .quem{
-    margin-right: 228px;
+    margin-left: 200px;
 }
 
 footer a{
     color: white;
+    text-decoration: none;
 }
 
 .importante{
     width: 15px;
     height: 15px;
+}
+
+#txt{
+    font-size: 18px;
+    margin-top: 25px;
+    font-weight: bold;
+    display: block;
+    bottom: 0px;
+}
+
+#content2{
+    margin-top: 20px;
+}
+
+.dados{
+    margin-right: 200px;
 }
