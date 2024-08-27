@@ -65,35 +65,77 @@ header {
 
 #sec1 {
     margin-top: 100px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 35px;
 }
 
-#sec2 {
 
+#div2 ul { 
+    list-style: none;
+    display: flex;
+     justify-content: center;
+     margin-top: 10%;
+     gap: 10%;
 }
 
-#div2 ul {  
+#moda {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-     margin-left: 40%;
-     list-style: none;
-     display: inline-flex;
-     
-     
-     margin-top: 115px;
+    justify-content: center;
+ 
+}
+
+#div2 img {
+    margin-top: 15%;
+}
+
+#colecao {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
+
+#conjuntos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
 }
 
 #div2 a {
     text-decoration: none;
+    color: #000000;
 }
 
-#moda {
-    margin-top: 50%;
-    text-align: start;
+#div2 a:hover {
+    text-decoration: underline;
 }
 
-#conjuntos {
-    margin-top: 50%;
-    
+.div3 {
+display:flex ;
+justify-content: space-evenly;
+margin-top: 10%;
+
 }
+
+.link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    gap: 10px;    
+}
+
+.linha img {
+    margin-top: 15%;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
