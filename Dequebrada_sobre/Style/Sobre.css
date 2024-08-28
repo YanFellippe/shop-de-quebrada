@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif !important; 
+}
+
+
+#img_teste{
+    height: 50%;
+    width: 100%;
+}
+   
+#sobrenos{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: space-between;
+}
+
+#sobre_nos{
+    
+    margin-left: 32px;
+    margin-right: 32px;
+}
+
+
+#sobre_nos p{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 25px;
+    align-items: center;
+    text-align: left;
+    font-size: 18px;
+
+   
+}
+
+#nossos_socios{
+    font-size: 13px;
+    padding: 60px;
+    text-align: center;
+
+    
+}
+
+#socios{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+}
