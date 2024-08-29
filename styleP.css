@@ -1,0 +1,399 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Rocker&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: "Montserrat", sans-serif; 
+}
+
+.banner {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+}
+
+.banner_image {
+    width: 100%;
+    height: auto;
+}
+
+.logo_image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.logo {
+    height: 70px;
+    width: auto;
+    margin-bottom: 20%;
+}
+
+.text_banner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.text_banner h1 {
+    font-family: "New Rocker", system-ui;
+    font-size: 35px;
+    margin-top: 50px;
+}
+
+.icon_pesquisa {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    color: white;
+    margin-left: 13%;
+    margin-top:5%;
+}
+
+.icon_pesquisa img {
+    height: 20px;
+    width: auto;
+}
+
+.icon_pesquisa:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+.text_conta {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    color: white;
+    margin-right: 10%;
+    margin-top: 5%;
+    gap: 15px;
+    align-items: center;
+}
+
+.text {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-weight: 600;
+}
+
+.text:hover {
+    transition: 0.5s;
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+.icon_sacola {
+    height: 25px;
+    width: auto;
+    align-items: center;
+  
+}
+
+.icon_sacola:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+.nav {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.icon_menu {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.icon_menu img {
+    height: 25px;
+    width: auto;
+
+}
+
+.icon_menu:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.nav ul li {
+    margin-right: 20px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif; 
+    font-weight: bold;
+}
+
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+
+.sec_fotos ul { 
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    gap: 15%;
+}
+
+
+.sec_fotos img {
+    margin-top: 15%;
+    width: auto;
+    height: 200px;
+    
+}
+
+.sec_fotos img:hover{
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+.moda {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+ 
+}
+.colecao {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
+
+.conjuntos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
+
+.sec_fotos a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.sec_fotos a:hover {
+    text-decoration: underline;
+}
+
+.sec_fotos a {
+    font-weight:bold ;
+}
+
+.text_sec2 {
+    text-align: center;
+    margin-top: 5%;
+    font-weight: 150;
+}
+
+.text_sec2 strong {
+    font-weight: bold;
+    color: rgb(255, 132, 0);
+}
+
+.text_produtos {
+    font-weight: 500;
+    color: #666666;
+    margin-top: 50px;
+    margin-left: 30%;
+   
+}       
+
+
+.produtos ul { 
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+
+.produtos img {
+    margin-top: 25%;
+    width: auto;
+    height: 200px;
+    
+}
+
+.produtos img:hover{
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+.prod_1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+ 
+}
+.prod_2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
+
+.prod_3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
+
+.produtos a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.produtos a:hover {
+    text-decoration: underline;
+}
+
+.produtos a {
+    font-weight:bold ;
+}
+
+.produtos p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.img_text {
+    display:flex ;
+    justify-content: space-evenly;
+    margin-top: 5%;
+   
+    
+    }
+    
+    .link {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        gap: 10px;    
+        color: #000000;
+        font-weight: bold;
+    }
+    
+    .linha img {
+        margin-top: 7%;
+        width: 100%;
+    }
+
+    .link:hover {
+        transition: 0.5s;
+        transform: scale(1.1);
+    }
+
+    .section_tabela {
+        display: flex;
+        justify-content: center;
+        margin-top: 5%;
+        gap: 20%;
+        margin-bottom: 50px;
+    } 
+
+    .section_tabela li {
+        text-decoration: none;
+        list-style: none;
+    }
+
+
+    footer {
+        background-color: rgb(0, 0, 0);
+        width: 100%;
+        padding: 35px 0; 
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: white;
+        text-align: center;
+        box-sizing: border-box; 
+    }
+    
+    footer li {
+        list-style: none;
+        margin-bottom: 15px;
+    }
+    
+    .sobre {
+        margin-left: 200px;
+    }
+    
+    .politica {
+        margin-left: 200px;
+        display: block;
+    }
+    
+    .quem {
+        margin-left: 200px;
+        display: block;
+    }
+    
+    footer a {
+        color: white;
+        text-decoration: none;
+    }
+    
+    .importante {
+        width: 15px;
+        height: 15px;
+    }
+    
+    #txt {
+        font-size: 18px;
+        margin-top: 25px;
+        font-weight: bold;
+    }
+    
+    #content2 {
+        margin-top: 20px;
+    }
+    
+    .dados {
+        margin-right: 200px;
+    }
