@@ -64,13 +64,32 @@ header {
     transition: 1s;
 }
 
-#banner{
+#banner {
     background-image: url("./src/The\ North\ Face\ 1.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 700px;
     width: 100%;
+    position: relative;
 }
+
+.banner-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-family: "New Rocker", sans-serif; 
+}
+
+.banner-text {
+    margin-bottom: 20px; 
+    font-size: 60px; 
+    line-height: 1.2; 
+}
+
+
 
 .carousel {
     top: 100px;
@@ -221,6 +240,7 @@ button a{
 .pessoa_img img {
     width: 1500px; 
     height: auto;
+    margin-left: -400px;
 }
 
 .pessoa_img {
@@ -234,10 +254,9 @@ button a{
 .txt_sobre_nos {
     font-size: 20px;
     flex: 1;
-    margin-left: -400px; 
+    margin-left: -400px;
+    margin-right: 90px; 
 }
-
-
 
 footer {
     background-color: rgb(0, 0, 0);
@@ -253,7 +272,6 @@ footer {
 
 footer li {
     list-style: none;
-    padding: 0 200px;
     margin-bottom: 15px;
 }
 
