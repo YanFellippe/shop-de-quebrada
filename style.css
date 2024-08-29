@@ -13,81 +13,173 @@ body {
     background-color: #FFFCF9;
 }
 
-header {
+.banner_index {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+}
+
+.banner_image_index {
+    width: 100%;
+    height: auto;
+}
+
+.logo_image_index {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.logo_index {
+    height: 70px;
+    width: auto;
+    margin-bottom: 20%;
+}
+
+.text_banner_index {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.text_banner_index h1 {
+    font-family: "New Rocker", system-ui;
+    font-size: 35px;
+    margin-top: 5px;
+    font-weight: 500;
+}
+
+.text_banner_index h3 {
+    font-family: "New Rocker", system-ui;
+    font-size: 25px;
+    margin-top: 5px;
+    color: rgb(239, 207, 0);
+    font-weight: 600;
+}
+
+.icon_pesquisa_index {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    color: white;
+    margin-left: 13%;
+    margin-top:5%;
+}
+
+.icon_pesquisa_index img {
+    height: 20px;
+    width: auto;
+}
+
+.icon_pesquisa_index:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+.text_conta_index {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    color: white;
+    margin-right: 10%;
+    margin-top: 5%;
+    gap: 15px;
+    align-items: center;
+}
+
+.text_index {
+    text-decoration: none;
+    list-style: none;
+    color: rgb(255, 255, 254);
+    font-weight: 300;
+}
+
+.text_index:hover {
+    transition: 0.5s;
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+.icon_sacola_index {
+    height: 25px;
+    width: auto;
+    align-items: center;
+  
+}
+
+.icon_sacola_index:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+.nav_index {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.icon_menu_index {
     display: flex;
     align-items: center;
-    height: 90px;
-    background-color: #FFFCF9;
-    justify-content: center;
- 
+    cursor: pointer;
+    margin-right: 10px;
 }
 
-.logo img {
-    max-height: 60px;
-    .new-rocker-regular {
-        font-family: "New Rocker", system-ui;
-        font-weight: 400;
-        font-style: normal;
-      }       
+.icon_menu_index img {
+    height: 25px;
+    width: auto;
+
 }
 
-.navegacao {   
-    display: flex;
-    margin-left: 200px;
+.icon_menu_index:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
 }
 
-.navegacao ul {
+.nav_index ul {
     list-style: none;
     display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-left: 30px;
 }
 
-.navegacao li {
-    margin-left: 100px;
+.nav_index ul li {
+    margin-right: 20px;
 }
 
-#ctt {
-    margin-left: 230px;
- 
-}
-
-.navegacao a {
+.nav_index a {
     text-decoration: none;
-    color: #000000;
+    color: black;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif; 
     font-weight: bold;
 }
 
-.navegacao a:hover {
+.nav_index a:hover {
     text-decoration: underline;
 }
 
-.navegacao li:hover{
-    transition: 1s;
-}
-
-#banner {
-    background-image: url("./img/The\ North\ Face\ 1.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 700px;
-    width: 100%;
-    position: relative;
-}
-
-.banner-content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color: white;
-    font-family: "New Rocker", sans-serif; 
-}
-
-.banner-text {
-    margin-bottom: 20px; 
-    font-size: 60px; 
-    line-height: 1.2; 
-}
 
 
 
